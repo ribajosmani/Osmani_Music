@@ -2,7 +2,7 @@
     "name": "Osmani Vc Player",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["Zaid", "Veez Music", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
-    "repository": "https://github.com/searosan/Zaid-Vc-Player",
+    "repository": "https://github.com/jaabirosman/Osmani_Music",
   "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -17,10 +17,10 @@
         "ASS_ID": {
             "description": "fill with telegram id of account",
             "required": true,
-            "value": "1904094450"
+            "value": ""
         },
         "LOG_GROUP_ID": {
-            "description": "Add @@RibLentBot and type /id to get ur chat id",
+            "description": "Add @Mss_rosan_bot and type /id to get ur chat id",
             "required": true,
             "value": "Fill There Ur Private/Channel Id Make sure start with -100"
         },
@@ -62,7 +62,7 @@
         "MONGO_DB_URI": {
             "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !)",
             "required": true,
-            "value": "mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+            "value": ""
         }
     },
   "buildpacks": [
